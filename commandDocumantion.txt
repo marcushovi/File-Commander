@@ -1,0 +1,18 @@
+COMM:        WRITE COMM                                     DESCRIPTION
+
+HELP         [help]                                         print description about commands
+OF           [of filePath.suffix]                           load file of any type
+SAVE         [save]                                         save file of any type with which you work
+PT           [pt]                                           print file of any type with which you work
+EXIT         [exit]                                         end program
+
+NL           [nl]                                           add new line to the txt file
+ADTX         [adtx someText]                                add text to the txt file
+CONTX         [cotx someText]                                print how much the file contains specific text
+
+ADRO         [adro textForEachCellSeparatedWithSpace]       add new row to the csv or tsv files
+ADCOL        [adcol textForEachCellSeparatedWithSpace]      add new col to the csv or tsv files
+REMRO        [remro numberOfRow]                            remove row in the csv or tsv files
+REMCOL       [remcol numberOfColumn]                        remove column in the csv or tsv files
+CHACE        [chace numberOfColumn numberOfRow someText]    change text of cell for new text in the csv or tsv files
+REMCE        [remce numberOfColumn numberOfRow]             remove text of cell in the csv or tsv files
